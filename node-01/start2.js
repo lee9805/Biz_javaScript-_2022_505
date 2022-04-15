@@ -30,4 +30,5 @@ for (let i = 0; i < 10; i++) {}
 for (var j = 0; j < 10; j++) {}
 console.log(j);
 
-for (const i = 0; i < 10; i++) {}
+//변수값을  이후에 변경해야 하는 경우는 const를 사용하면 안된다
+//for (const i = 0; i < 10; i++) {}
